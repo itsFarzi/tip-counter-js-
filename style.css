@@ -1,0 +1,54 @@
+#main{
+    width: 30% ;
+    height: 500px;
+    margin: 3% auto 0 auto ;
+     font-family: 'Roboto', sans-serif;
+     padding: 0 ;
+    background-color:	#01669C ;
+    color: white;
+    text-align: center ;
+}
+#amount h2 {
+    margin: 10px ;
+}
+#amount p{
+    margin: 6px;
+}
+#amount input{
+    border-style: none ;
+    border-radius: 10px ;
+    height:  30px ;
+    width: 160px;
+    text-align: center ;
+    font-size: 20px ;
+}
+
+
+#rating table{
+    margin: 0 auto 0 auto ;
+    width: 100% ;
+}
+#rating table tr td h2 {
+    margin: 8px ;
+}
+#rating table tr  :hover{
+  opacity: 0.6; 
+  cursor: pointer
+}
+
+#tipArea{
+    background-color: #1699DD ; 
+    height: 100px;
+}
+#tipArea h2{
+    margin: 0 ;
+      position: relative;
+      top: 10px ;
+}
+#tipArea span{
+   margin: 0 ;
+   font-size: 40px ;
+   position: relative;
+   top: 10px ;
+   font-family: 'Thasadith', sans-serif;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link>
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Thasadith" rel="stylesheet">
+    <link href="./fontawesome-free-5.6.3-web/css/all.css" rel="stylesheet" >
+    <title>Tip Calculator</title>
+</head>
+<body>
+      <div  id="main" >
+         <div id="amount">
+           <h2> Your bill was</h2>
+           <input type="text"  placeholder="Amount in -Rs" id="amountInput" />
+           <p>----- AND -----</p>
+         </div>
+         <div id="rating" >
+             <table>
+                 <tr>
+                     <td style="background-color :#28A9EB"
+                         onclick="responseR(0.3)"
+                
+                     >
+                        <p>Our Service Was</p>
+                            <i class="fas fa-kiss-wink-heart fa-3x"></i>
+                            <h2>Amazing!</h2>
+                        </td>
+                     <td style="background-color :#52BBF2"
+                     onclick="responseR(0.2)"
+                     >
+                            <p>Our Service Was</p>
+                            <i class="fas fa-smile-wink fa-3x"></i>
+                            <h2>Great!</h2>
+                     </td>
+                 </tr>
+                 <tr>
+                     <td style="background-color :#5DB1DD" 
+                     onclick="responseR(0.1)"
+                     ><p>Our Service Was</p>
+                             <i class="fas fa-meh fa-3x"></i>
+                             <h2>OK!</h2>
+                            </td>
+                        <td style="background-color :#85CBEF"
+                        onclick="responseR(0.15)"
+                        >
+                             <p>Our Service Was</p>
+                             <i class="fas fa-angry fa-3x"></i>
+                            <h2>Bad!</h2>
+                         </td>
+                    </tr>
+             </table>
+             
+           
+         </div>
+         <!-- <div id="nOfPpl" >
+             <h2>Number of people are</h2>
+             <input type="text" />
+         </div> -->
+         <div id="tipArea">
+             <h2>Your tip is</h2>
+            <span id='tip' >0</span>
+         </div>
+      </div>
+      <script type="text/javascript" src="./index.js"></script>
+</body>
+</html>
